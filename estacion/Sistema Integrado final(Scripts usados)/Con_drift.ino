@@ -87,8 +87,6 @@ Serial.println("Configuración completa. El sistema está activo.");
 void loop() {
 // ¿Ha llegado el momento del próximo envío?
 if (millis() >= proximoEnvio) {
-code
-Code
 Serial.println("\n==============================================");
 Serial.println("¡Intervalo cumplido! Iniciando ciclo...");
 
